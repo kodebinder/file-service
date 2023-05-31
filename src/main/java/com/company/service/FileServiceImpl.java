@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class FileServiceImpl implements FileService {
 
-    @Value("${application.bucket.name}")
+    @Value("${cloud.aws.s3.bucket.name}")
     private String bucketName;
     private final AmazonS3 amazonS3;
 

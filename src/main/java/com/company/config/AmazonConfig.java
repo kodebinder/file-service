@@ -18,7 +18,7 @@ public class AmazonConfig {
     @Value("${cloud.aws.credentials.secret-key}")
     private String accessSecret;
 
-    @Value("${cloud.aws.region.static}")
+    @Value("${cloud.aws.region}")
     private String region;
 
     @Bean

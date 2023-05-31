@@ -1,14 +1,12 @@
-application:
-  bucket:
-    name: pushkarawsbucket
-
 cloud:
   aws:
     credentials:
       access-key: AKIA2LVXZB6L46BWYMAL
       secret-key: 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
-    region:
-      static: eu-north-1
+    region: eu-north-1
+    s3:
+      bucket:
+        name: pushkarawsbucket
 
 server:
   port: 9090
